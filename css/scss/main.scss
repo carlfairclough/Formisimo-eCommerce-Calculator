@@ -1,0 +1,15 @@
+// Reset default browser styles
+@import "base/reset.scss";
+
+@import "base/config.scss";
+
+// Import typical layout styles
+@import "base/grid";
+@import "base/type";
+
+// Import reusable modules
+@import "modules/buttons";
+@import "modules/nav";
+@import "modules/other";
+
+@import "pages/home";

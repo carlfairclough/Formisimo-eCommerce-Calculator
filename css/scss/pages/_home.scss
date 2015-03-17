@@ -1,0 +1,103 @@
+//**
+// Homepage
+//**
+
+
+
+
+
+// Responsive styles if needed
+// @include responsive($big-break) {
+// }
+// @include responsive($small-break) {
+// }
+
+// Mobile first styles if needed
+// @include mobilefirst($big-break) {
+// }
+// @include mobilefirst($small-break) {
+// }
+
+
+body.login {
+	background:$ld-gray;
+	min-height:720px;
+	overflow: hidden;
+
+	header {
+		background:none;
+		height:100%;
+
+		.white-wrap {
+			z-index: 100;
+			position: absolute;
+			top: 0;
+			left: 70px;
+			right: 70px;
+		}
+
+		.content {
+			height:100%;
+			display:flex;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+	
+
+	.container {
+		position:relative;
+		z-index: 100;
+		width:100%;
+		height:100%;
+
+		.col-6 {
+		}
+	}
+
+	h1 {
+		font-size:35px;
+	}
+
+	h1 + p {
+		font-size:22px;
+		color:#e1edf1;
+	}
+
+	label {
+		display: block;
+		font-weight:500;
+	}
+	input[type="text"],
+	input[type="email"] {
+		line-height: 49px;
+		display:block;
+		font-size:19px;
+		border-radius:4px;
+		outline:none;
+		appearance:none;
+		-moz-appearance:none;
+		-webkit-appearance:none;
+		box-shadow:none;
+		border:1px solid $d-gray;
+		display: block;
+		width:80%;
+		border:1px solid #FFF;
+		box-shadow:0 0 0 1px $d-gray;
+		transition:all 0.25s ease-in-out;
+		background: darken($white,10);
+		color:$d-gray;
+	}
+
+	input[type="text"]:focus,
+	input[type="email"]:focus {
+		border:1px solid $aqua;
+		box-shadow:0 0 0 1px $aqua;
+		background:$white;
+	}
+
+	a.big-button {
+		font-weight:500;
+	}
+
+}

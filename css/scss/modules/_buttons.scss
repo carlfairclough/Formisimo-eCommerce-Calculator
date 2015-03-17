@@ -1,0 +1,161 @@
+//**
+// Buttons
+//**
+
+a {
+  color: $aqua;
+  font-weight:600;
+}
+
+// Default button
+.btn {
+  background: transparent;
+  border: 1px solid $primary-color;
+  color: $primary-color;
+  display: inline-block;
+  height: $line-height;
+  outline: none;
+  padding: 0 25px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+
+  &:hover,
+  &:focus {
+    background: $primary-color;
+    border-color: $primary-color;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  &:active {
+    background: darken($primary-color, 10);
+    border-color: darken($primary-color, 10);
+  }
+}
+
+// Primary action button
+.btn-primary {
+  background-color: $primary-color;
+  border-color: $primary-color;
+  color: #fff;
+
+  &:hover,
+  &:focus {
+    background: darken($primary-color, 5);
+    border-color: darken($primary-color, 5);
+    color: #fff;
+  }
+
+  &:active {
+    background: darken($primary-color, 10);
+    border-color: darken($primary-color, 10);
+    color: #fff;
+  }
+}
+
+// Larger button
+.btn-lg {
+  font-size: 1.4em;
+  height: $line-height*1.5;
+  padding: 0 60px;
+}
+
+// Smaller button
+.btn-sm {
+  font-size: .85em;
+  height: $line-height*.7;
+  padding: 0 10px;
+}
+
+// Link button - a button that looks like a link
+.btn-link {
+  background: transparent;
+  border: 0;
+  color: $primary-color;
+  text-shadow: none;
+  text-transform: none;
+
+  &:hover,
+  &:focus {
+    background: transparent;
+    color: $primary-color;
+    text-decoration: underline;
+  }
+}
+
+
+.big-button {
+  border-radius:4px;
+  background: $aqua;
+  border: none;
+  color: white;
+  display: inline-block;
+  height: 59px;
+  font-size:19px;
+  line-height: 59px;
+  outline: none;
+  padding: 0 75px;
+  text-align: center;
+  font-weight:400;
+  text-decoration: none;
+  transition:all 0.2s ease-in-out;
+
+  &:hover {
+    background: darken($aqua,3);
+  }
+
+  &:active {
+    background: darken($aqua, 6);
+  }
+}
+
+.white-button {
+  background: $white;
+  color:$d-gray;
+}
+
+.button.blue {
+  border-radius:4px;
+  color:$white;
+  background:lighten($aqua, 20);
+  margin-left:20px;
+  text-decoration: none;
+  padding:0 30px;
+  line-height:35px;
+  display: inline-block;
+  margin-top:6px;
+  transition:0.2s ease-in-out;
+
+  &:hover,
+  &:focus {
+    background:lighten($aqua, 10);
+  }
+
+  &:active {
+    background:lighten($aqua, 5);
+  }
+}
+
+.share-wrap {
+  padding:20px;
+  background: darken($d-gray, 10);
+  position:fixed;
+  right:0;
+  top:50%;
+  transform: translateY(-50%);
+  z-index: 200;
+
+  ul { list-style: none; overflow: hidden; margin: 0; }
+  ul li { width: 35px; display: block; margin-bottom: 7px;
+    &:last-child {
+      margin-bottom:0;
+    }
+  }
+  ul li a { text-indent: -9999em; display: inline-block; white-space: nowrap; overflow: hidden; height: 35px; width: 35px; overflow: hidden; transition: 0.1s ease-in-out; }
+  ul li a.twitter-icon { background: url(http://formisimo.com/blog/wp-content/themes/formisimo-v2/library/images/social-media-01.svg) no-repeat; }
+  ul li a.linkedin-icon { background: url(http://formisimo.com/blog/wp-content/themes/formisimo-v2/library/images/social-media-04.svg) no-repeat; }
+  ul li a.gplus-icon { background: url(http://formisimo.com/images/blog/wp-content/themes/formisimo-v2/library/social-media-03.svg) no-repeat; }
+  ul li a.facebook-icon { background: url(http://formisimo.com/blog/wp-content/themes/formisimo-v2/library/images/social-media-02.svg) no-repeat; }
+  ul li a:hover {  }
+}

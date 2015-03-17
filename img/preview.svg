@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="382" height="606" viewBox="0 0 382 606">
+  <defs>
+    <style>
+
+      .cls-3 {
+        fill: #404146;
+        stroke: #ffffff;
+        stroke-width: 1px;
+      }
+
+      .cls-4 {
+        fill: #404146;
+        stroke: #78797d;
+        stroke-width: 1px;
+      }
+
+      .cls-6 {
+        fill: #55565b;
+        stroke: #535459;
+        stroke-width: 2px;
+      }
+
+      .cls-8 {
+        stroke: #78797d;
+        stroke-width: 1px;
+        fill: none;
+      }
+
+      .cls-10 {
+        fill: #707174;
+      }
+
+      .cls-13 {
+        stroke: #00aeef;
+        stroke-width: 2px;
+        fill: none;
+      }
+
+      .cls-14 {
+        stroke: #62db27;
+        stroke-width: 2px;
+        fill: none;
+      }
+
+      .cls-15 {
+        fill: #35363c;
+        stroke: #9697a3;
+        stroke-width: 1px;
+      }
+
+      .cls-16 {
+        fill: #585a60;
+      }
+
+      .cls-18 {
+        fill: #de8282;
+      }
+
+      .cls-22 {
+        fill: #9697a3;
+      }
+
+      .cls-26 {
+        fill: #62db27;
+      }
+
+      .cls-29 {
+        fill: #00aeef;
+      }
+
+      .cls-34 {
+        stroke: #ffffff;
+        stroke-width: 4px;
+        filter: url(#gradient-overlay-1);
+        fill: none;
+      }
+    </style>
+
+    <filter id="gradient-overlay-1" filterUnits="userSpaceOnUse">
+      <feImage x="49" y="482" preserveAspectRatio="none" width="272" height="56" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjcyIiBoZWlnaHQ9IjU2Ij48bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iNzAuMDM2IiB5MT0iNTYiIHgyPSIyMDEuOTY0IiB5Mj0iMCI+CiAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjODc0YzQzIi8+CiAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjNjJkYjI3Ii8+CjwvbGluZWFyR3JhZGllbnQ+CjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiLz48L3N2Zz4="/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend mode="normal" in2="SourceGraphic" result="gradientFill"/>
+    </filter>
+  </defs>
+  <g id="previewsvg">
+    <rect id="rect-1" class="cls-3" width="381" height="604" rx="4" ry="4"/>
+    <path d="M1.594,52.000 C1.594,52.000 1.594,51.000 1.594,51.000 C1.594,51.000 379.594,51.000 379.594,51.000 C379.594,51.000 379.594,52.000 379.594,52.000 C379.594,52.000 1.594,52.000 1.594,52.000 Z" id="path-1" class="cls-4" fill-rule="evenodd"/>
+    <path d="M1.594,600.000 C1.594,600.000 1.594,599.000 1.594,599.000 C1.594,599.000 379.594,599.000 379.594,599.000 C379.594,599.000 379.594,600.000 379.594,600.000 C379.594,600.000 1.594,600.000 1.594,600.000 Z" id="path-2" class="cls-4" fill-rule="evenodd"/>
+    <path d="M49.094,540.500 C49.094,540.500 120.094,499.500 120.094,499.500 C120.094,499.500 199.094,516.500 199.094,516.500 C199.094,516.500 280.094,484.500 280.094,484.500 C280.094,484.500 321.094,486.500 321.094,486.500 C321.094,486.500 321.094,540.500 321.094,540.500 C321.094,540.500 49.094,540.500 49.094,540.500 Z" id="path-3" class="cls-6" fill-rule="evenodd"/>
+    <rect id="rect-2" class="cls-4" x="4" y="23" width="373" height="23" rx="2" ry="2"/>
+    <circle id="circle-1" class="cls-8" cx="13" cy="14" r="6"/>
+    <circle id="circle-2" class="cls-4" cx="26" cy="14" r="6"/>
+    <path d="M379.094,278.500 C379.094,278.500 379.094,279.500 379.094,279.500 C379.094,279.500 0.094,279.500 0.094,279.500 C0.094,279.500 0.094,278.500 0.094,278.500 C0.094,278.500 379.094,278.500 379.094,278.500 Z" id="path-4" class="cls-10" fill-rule="evenodd"/>
+    <path d="M379.094,428.500 C379.094,428.500 379.094,429.500 379.094,429.500 C379.094,429.500 0.094,429.500 0.094,429.500 C0.094,429.500 0.094,428.500 0.094,428.500 C0.094,428.500 379.094,428.500 379.094,428.500 Z" id="path-5" class="cls-10" fill-rule="evenodd"/>
+    <circle id="circle-3" class="cls-4" cx="39" cy="14" r="6"/>
+    <ellipse id="ellipse-1" class="cls-8" cx="109" cy="163" rx="65" ry="63"/>
+    <circle id="circle-4" class="cls-4" cx="109" cy="163" r="11"/>
+    <rect id="rect-3" class="cls-15" x="195" y="87" width="1" height="153"/>
+    <rect id="rect-4" class="cls-16" x="202" y="104" width="114" height="6"/>
+    <rect id="rect-5" class="cls-16" x="202" y="115" width="94" height="6"/>
+    <rect id="rect-6" class="cls-18" x="196" y="104" width="2" height="17"/>
+    <rect id="rect-7" class="cls-16" x="202" y="133" width="87" height="6"/>
+    <rect id="rect-8" class="cls-16" x="202" y="144" width="94" height="6"/>
+    <rect id="rect-9" class="cls-16" x="202" y="155" width="29" height="6"/>
+    <rect id="rect-10" class="cls-18" x="196" y="133" width="2" height="28"/>
+    <rect id="rect-11" class="cls-16" x="202" y="173" width="77" height="6"/>
+    <rect id="rect-12" class="cls-16" x="202" y="184" width="64" height="6"/>
+    <rect id="rect-13" class="cls-16" x="202" y="195" width="44" height="26"/>
+    <rect id="rect-14" class="cls-26" x="196" y="173" width="2" height="48"/>
+    <rect id="rect-15" class="cls-16" x="43" y="320" width="135" height="11"/>
+    <rect id="rect-16" class="cls-16" x="43" y="338" width="155" height="7"/>
+    <rect id="rect-17" class="cls-29" x="184" y="320" width="35" height="11"/>
+    <rect id="rect-18" class="cls-16" x="43" y="372" width="135" height="9"/>
+    <rect id="rect-19" class="cls-16" x="43" y="387" width="105" height="7"/>
+    <rect id="rect-20" class="cls-26" x="150" y="387" width="45" height="7"/>
+    <rect id="rect-21" class="cls-26" x="197" y="387" width="45" height="7"/>
+    <g id="shape-7" style="fill: none; filter: url(#gradient-overlay-1);">
+      <path d="M50.094,539.500 C50.094,539.500 121.094,498.500 121.094,498.500 C121.094,498.500 200.094,515.500 200.094,515.500 C200.094,515.500 281.094,483.500 281.094,483.500 C281.094,483.500 322.094,485.500 322.094,485.500 " id="path-6" class="cls-34" style="stroke: inherit; filter: none; fill: inherit;" fill-rule="evenodd"/>
+    </g>
+    <use xlink:href="#path-6" style="stroke: #ffffff; fill: none; filter: none;"/>
+  </g>
+</svg>
