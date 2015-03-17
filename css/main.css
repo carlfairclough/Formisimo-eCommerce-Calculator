@@ -526,8 +526,8 @@ a {
 nav {
   padding-top: 5px; }
   nav .logo {
-    padding-left: 0;
-    width: 220px; }
+    padding: 0;
+    width: 180px; }
   nav ul {
     list-style: none;
     float: right; }
@@ -540,6 +540,9 @@ nav {
 footer p {
   color: #8b8c94;
   font-size: 16px !important; }
+  footer p a {
+    color: #8b8c94;
+    font-weight: 400; }
 
 footer ul {
   list-style: none;
@@ -1200,3 +1203,76 @@ body.login {
     background: #fff; }
   body.login a.big-button {
     font-weight: 500; }
+
+html {
+  min-width: 0;
+  overflow: scroll !important; }
+
+@media only screen and (max-width: 500px) {
+  body.login {
+    min-width: 0;
+    height: auto;
+    overflow: hidden !important;
+    position: relative; }
+    body.login nav {
+      padding-bottom: 13px; }
+      body.login nav a.logo {
+        margin: 0 auto;
+        display: block;
+        margin-top: 5px; }
+      body.login nav ul {
+        display: block;
+        text-align: center;
+        float: none;
+        width: 100%; }
+        body.login nav ul li {
+          display: inline-block;
+          float: none;
+          width: 48%; }
+    body.login .container {
+      height: auto;
+      padding-bottom: 0px; }
+    body.login header {
+      height: auto !important;
+      padding-bottom: 0px; }
+      body.login header .white-wrap {
+        margin: 0;
+        position: absolute;
+        top: 0;
+        left: 0 !important;
+        right: 0 !important; }
+      body.login header .row.content {
+        display: block !important; }
+      body.login header .col-6:first-of-type {
+        display: none; }
+      body.login header .col-6 + .col-6 {
+        padding-top: 100px;
+        width: 100%;
+        float: left; }
+    body.login input[type="text"],
+    body.login input[type="email"] {
+      width: 100%; }
+    body.login a.sign-in {
+      padding: 0;
+      display: block; }
+    body.login .share-wrap {
+      margin-top: 50px;
+      display: block;
+      position: relative;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      transform: none; }
+      body.login .share-wrap ul {
+        list-style: none;
+        overflow: hidden;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        height: 35px; }
+        body.login .share-wrap ul li {
+          width: auto;
+          display: inline-block;
+          padding-bottom: 0px !important;
+          padding-right: 5px !important;
+          padding-left: 5px !important; } }
