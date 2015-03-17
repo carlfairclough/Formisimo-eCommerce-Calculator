@@ -526,6 +526,8 @@ a {
 nav {
   padding-top: 5px; }
   nav .logo {
+    margin-top: 10px;
+    float: left;
     padding: 0;
     width: 180px; }
   nav ul {
@@ -535,7 +537,8 @@ nav {
       float: left; }
   nav a {
     display: inline-block;
-    padding: 10px 30px; }
+    padding: 10px 30px;
+    margin-bottom: 10px; }
 
 footer p {
   color: #8b8c94;
@@ -1219,7 +1222,8 @@ html {
       body.login nav a.logo {
         margin: 0 auto;
         display: block;
-        margin-top: 5px; }
+        margin-top: 5px;
+        float: none; }
       body.login nav ul {
         display: block;
         text-align: center;
@@ -1229,12 +1233,20 @@ html {
           display: inline-block;
           float: none;
           width: 48%; }
+          body.login nav ul li a {
+            width: 100%;
+            text-align: center;
+            max-width: 115px;
+            padding: 0 !important;
+            margin: 0 !important; }
     body.login .container {
       height: auto;
       padding-bottom: 0px; }
     body.login header {
       height: auto !important;
-      padding-bottom: 0px; }
+      padding-bottom: 0px;
+      padding-left: 10px;
+      padding-right: 10px; }
       body.login header .white-wrap {
         margin: 0;
         position: absolute;
@@ -1246,7 +1258,7 @@ html {
       body.login header .col-6:first-of-type {
         display: none; }
       body.login header .col-6 + .col-6 {
-        padding-top: 100px;
+        padding-top: 120px;
         width: 100%;
         float: left; }
     body.login input[type="text"],
